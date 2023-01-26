@@ -107,7 +107,7 @@ def serverside(request):
         context['b'] = b
         print('Area=', area)
     return render(request,"html/serverside.html",context)
-    ```
+```
 ## OUTPUT:
 ![Screenshot_20230126_045012](https://user-images.githubusercontent.com/118343686/214825646-6a4bedaa-bf41-4f3d-a087-f1dfe12d57d1.png)
 ## RESULT:
